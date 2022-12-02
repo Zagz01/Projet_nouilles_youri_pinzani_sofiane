@@ -83,13 +83,38 @@ button {
 
 /*youri - service section */
 
+.section div{
+    display: flex;
+}
+
 .service span, .justify_title {
     display: flex;
     justify-content: center;
 }
 
+.service_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
 /*youri - service section */
 
 #image{
     height: 50px;
+    display: block;
+    margin: 10px auto;
 }
+
+.service_card{
+    border: 1px solid black;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*youri - service section */
