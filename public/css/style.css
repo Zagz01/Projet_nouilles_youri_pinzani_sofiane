@@ -62,8 +62,11 @@ button {
 .oklmzer{
     font-weight: lighter;
 }
-.border{
+.arrondieimg{
     border-radius: 50%;
     border: none;
-    
+}
+.border{
+    border: solid 1px rgb(191, 189, 189);
+    width: 20px;
 }
