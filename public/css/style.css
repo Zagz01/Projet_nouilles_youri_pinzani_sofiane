@@ -49,7 +49,7 @@ button {
     font-family: PMN;
     letter-spacing: 5px;
     position: relative;
-    top: -20px;
+    top: -17px;
 }
 
 .top_section button{
@@ -69,7 +69,7 @@ button {
 
 /* youri - top section */
 
-/* youri - service */
+/* youri - about me section */
 
 .about_me{
     display: flex;
@@ -78,7 +78,7 @@ button {
 }
 
 .about_me img{
-    height: 60%;
+    height: 70%;
 }
 
 .about_me div:first-of-type{
@@ -88,6 +88,8 @@ button {
 
 .about_me div:nth-child(2){
     margin-top: 2% ;
+    display: flex;
+    flex-direction: column;
 }
 
 .about_me h1{
@@ -104,7 +106,7 @@ button {
     border-radius: 10px;
 }
 
-/*youri - about me section  */
+/* / youri - about me section  */
 
 /*youri - service section */
 
