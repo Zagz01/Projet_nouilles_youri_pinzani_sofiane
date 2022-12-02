@@ -115,3 +115,22 @@ align-items: center;
     flex-direction: column;
     gap: 30px;
 }
+.textearangement{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+div>ul>li{
+   
+
+}
+.centragetextr{
+    text-align: center;
+    padding-top: 40px;
+}
+.centragere{
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
