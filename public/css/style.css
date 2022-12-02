@@ -37,13 +37,53 @@ button {
 .top_section button{
     background-color: #695aa6;
     border: none;
-    padding: 2%;
+    padding: 2px;
     border-radius: 10px;
     color: white;
 }
 
 /* youri - top section */
 
+/* youri - service */
+
 .about_me{
     display: flex;
+    height: 80vh;
+    margin: 0 10%;
+}
+
+.about_me img{
+    height: 60%;
+}
+
+.about_me div:first-of-type{
+    display: flex;
+    justify-content: center;
+}
+
+.about_me div:nth-child(2){
+    margin-top: 2% ;
+}
+
+.about_me h1{
+    color: #695aa6;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.about_me button{
+    background-color: white;
+    border: 1px solid #695aa6;
+    padding: 2px;
+    color: #695aa6; 
+    border-radius: 10px;
+}
+
+/*youri - about me section  */
+
+/*youri - service section */
+
+.service span, h1{
+    display: flex;
+    justify-content: center;
 }
