@@ -96,3 +96,12 @@ align-items: center;
 .oklmzer{
     font-weight: lighter;
 }
+.d-flexe{
+    display: flex;
+    justify-content: center;
+    padding-top:60px ;
+}
+.centragde{
+    width: 80%;
+    margin: auto;
+}
