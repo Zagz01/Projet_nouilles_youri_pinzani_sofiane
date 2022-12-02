@@ -57,7 +57,6 @@ button {
     left:-25px;
     top: 20px;
     margin: auto;
-    padding: auto;
 }
 .border{
     border: solid 1px rgb(191, 189, 189);
@@ -78,7 +77,7 @@ button {
     border: solid 1px rgb(191, 189, 189);
     width: 40%;
     height: 100%;
-    margin: auto;  
+    margin: auto;
 }
 .arrondieimgb{
     border-radius: 50%;
@@ -86,4 +85,14 @@ button {
     position: relative;
     left:-25px;
     top: 20px;
+}
+
+.titresectio3{
+    display: flex;
+align-items: center;   
+ flex-direction: column;
+ padding-top: 40px;
+}
+.oklmzer{
+    font-weight: lighter;
 }
