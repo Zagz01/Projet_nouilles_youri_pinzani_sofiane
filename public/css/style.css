@@ -132,6 +132,8 @@ color: #695BA7;
     display: flex;
     justify-content: center;
     border: solid gray;
+    margin-left:40px;
+    margin-right: 40px;
 }
 .centragde{
     width: 80%;
@@ -195,4 +197,8 @@ padding-top: 40px;
 .gapentre{
     display: flex;
     gap: 3px;
+}
+.paddinggaucheborde{
+  padding-left: 30px; 
+  padding-top: 20px; 
 }
