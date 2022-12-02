@@ -132,5 +132,12 @@ div>ul>li{
 .centragere{
     display: flex;
     list-style: none;
-    gap:30px;
+    gap:20px;
 }
+.dflexened{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.
