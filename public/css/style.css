@@ -53,13 +53,18 @@ button {
 .arrondieimg{
     border-radius: 50%;
     border: none;
+    position: relative;
+    left:-25px;
+    top: 20px;
+    margin: auto;
+    padding: auto;
 }
 .border{
     border: solid 1px rgb(191, 189, 189);
     width: 40%;
     height: 100%;
-
-    
+    margin: auto;
+  
 }
 .d-flex{
     display: flex;
@@ -72,12 +77,13 @@ button {
 .borderr{
     border: solid 1px rgb(191, 189, 189);
     width: 40%;
-    height: 100%;  
+    height: 100%;
+    margin: auto;  
 }
 .arrondieimgb{
     border-radius: 50%;
     border: none;
     position: relative;
-    left:-10px;
+    left:-25px;
     top: 20px;
 }
