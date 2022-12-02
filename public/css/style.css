@@ -53,3 +53,12 @@ button {
     border-radius: 3%;
     border: none;
 }
+.centrerlasection3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.oklmzer{
+    font-weight: lighter;
+}
