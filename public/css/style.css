@@ -127,6 +127,10 @@ button {
 /* / youri - about me section  */
 
 /*youri - service section */
+.service{
+    margin-bottom: 100px;
+}
+
 
 .section div{
     display: flex;
@@ -135,12 +139,27 @@ button {
 .justify_title {
     display: flex;
     justify-content: center;
+    
+}
+
+.service h1{
+    font-family: Arion;
+    color: #695aa6;
+}
+
+.service span{
+    font-family: PMN;
+}
+
+.service h1{
+    font-family: Arion;
+    color: #695aa6;
+    
 }
 
 .service_container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;   align-items: center;
     margin-top: 50px;
 }
 /*youri - service section */
@@ -167,20 +186,31 @@ button {
 
 /* youri - portofolio section */
 .container{
-    height: 400px;
+    height: 300px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.portofolio span{
+    font-family: PMN;
+}
+
+.portofolio h1{
+    font-family: Arion;
+    color: #695aa6;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 .card{
-    width: 33%;
-    height: 100%;
+    height: 300px;
+    width: 300px;
 }
 
 .card img{
-    width: 100%;
-    height: 100%;
+   height: 100%;
+   width: 100%;
 }
 /* / youri - portofolio section */
 
@@ -191,6 +221,8 @@ button {
     height: 400px;
     width: 100%;
     display: flex;
+    margin: 50px 50px;
+
 }
 
 .card_pricing{
@@ -198,12 +230,28 @@ button {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    padding: 1% 5%;
     text-align: center;
+    border: 1px solid black;
+
 }
 
-.card_pricing p{
+.card_pricing p, span{
     line-height: 40px;
+    font-family: PMN;
+}
+
+.card_pricing span{
+    
+}
+
+.pricing h1:nth-child(2){
+    color: #695aa6;
+    font-family: Arion;
+}
+
+.pricing h1:nth-child(5), h1:nth-child(4), h1:nth-child(6) {
+    font-family: Arion;
 }
 
 .card_pricing button{
