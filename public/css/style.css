@@ -1,3 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+button {
+ cursor: pointer;
+}
+
 .top_section{
     background-image: url(../images/header.jpg);
+    background-position: 0% 25% ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
