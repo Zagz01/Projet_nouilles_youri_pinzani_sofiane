@@ -109,8 +109,9 @@ font-family: PMN;
     left:-40px;
     top: 0px;
 }
-.flexcolumn{
-    display: flex;
+.coloration{
+    color: #695BA7;
+    font-family: Arlon;
 }
 .titresectio3{
     display: flex;
@@ -120,6 +121,12 @@ align-items: center;
 }
 .oklmzer{
     font-weight: lighter;
+    font-family: PMN;
+}
+.titresection3{
+font-weight: lighter;
+font-family: Arlon;
+color: #695BA7;
 }
 .d-flexe{
     display: flex;
@@ -133,6 +140,7 @@ align-items: center;
     flex-direction: column;
     gap: 30px;
 }
+
 .textearangement{
     display: flex;
     text-align: center;
