@@ -83,7 +83,11 @@ button {
 
 /*youri - service section */
 
-.service span, h1{
+.service span, .justify_title {
     display: flex;
     justify-content: center;
 }
+
+
+
+/*youri - service section */
