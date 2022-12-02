@@ -121,10 +121,6 @@ align-items: center;
     flex-direction: column;
     padding-top: 30px;
 }
-div>ul>li{
-   
-
-}
 .centragetextr{
     text-align: center;
     padding-top: 40px;
@@ -142,4 +138,20 @@ div>ul>li{
 }
 .deplacement{
     margin-left: 300px;
+}
+.centragearea{
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 40px;
+}
+.placmeentbuton{
+    padding-top: 30px;
+
+}
+.buttonmodif{
+    border-radius: 10px;
+    border: #695BA7 solid 1px;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
 }
