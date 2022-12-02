@@ -190,6 +190,7 @@ button {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .portofolio span{
@@ -241,9 +242,7 @@ button {
     font-family: PMN;
 }
 
-.card_pricing span{
-    
-}
+
 
 .pricing h1:nth-child(2){
     color: #695aa6;
