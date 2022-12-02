@@ -50,5 +50,10 @@ button {
 }
 .border{
     border: solid 1px rgb(191, 189, 189);
-    width: 20px;
+    width: 40px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
