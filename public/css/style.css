@@ -1,3 +1,9 @@
+ * {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+ }
 body{
     margin: 0;
     padding: 0;
@@ -50,9 +56,28 @@ button {
 }
 .border{
     border: solid 1px rgb(191, 189, 189);
-    display: flex;
+    width: 40%;
+    height: 100%;
+
+    
 }
 .d-flex{
     display: flex;
     justify-content: center;
+    gap:50px;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+.borderr{
+    border: solid 1px rgb(191, 189, 189);
+    width: 40%;
+    height: 100%;  
+}
+.arrondieimgb{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left:-10px;
+    top: 20px;
 }
