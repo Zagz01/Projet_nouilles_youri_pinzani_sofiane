@@ -131,9 +131,10 @@ color: #695BA7;
 .d-flexe{
     display: flex;
     justify-content: center;
-    border: solid gray;
+    border: solid rgb(191, 189, 189);
     margin-left:40px;
     margin-right: 40px;
+    height: 80%;
 }
 .centragde{
     width: 80%;
@@ -199,6 +200,10 @@ padding-top: 40px;
     gap: 3px;
 }
 .paddinggaucheborde{
-  padding-left: 30px; 
-  padding-top: 20px; 
+  padding: 2% 5% 2% 5%;
+  background-color: #695BA7;
+   
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
 }
