@@ -62,3 +62,8 @@ button {
 .oklmzer{
     font-weight: lighter;
 }
+.border{
+    border-radius: 50%;
+    border: none;
+    
+}
