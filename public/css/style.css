@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+@font-face{
+    font-family: Arion;
+    src: url(../fonts/Arlon-UltraBold.ttf);
+}
+
+@font-face {
+    font-family: PMN;
+    src: url(../fonts/PMNCaeciliaSansHeadRg.ttf);
+}
+
+/* youri - top section */
+
+.top_section {
+    background-image: linear-gradient(to bottom ,rgba(99, 109, 161, 0   ), rgba(250, 250, 250, 1)),  url(../images/header.jpg);
+    background-position: 0% 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arion;
+}
+
+.top_section h1:first-of-type{
+    color: #595a60;
+    font-size: 45px;
+}
+
+.top_section h1:nth-child(2){
+    color: #42464f;
+    font-size: 60px;
+
+}
+
+.top_section span{
+    color: #3c3c3e;
+    font-family: PMN;
+    letter-spacing: 5px;
+    position: relative;
+    top: -17px;
+}
+
+.top_section button{
+    background-color: #695aa6;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: white;
+    font-family: PMN;
+    margin-top: 5px;
+}
+
+.top_section div{
+    padding-right: 50px;
+    width: 400px;
+}
+
+/* youri - top section */
+
+/* youri - about me section */
+
+.about_me{
+    display: flex;
+    height: 80vh;
+    margin: 0 10%;
+}
+
+.about_me img{
+    height: 70%;
+}
+
+.about_me div:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me div:nth-child(2){
+    margin-top: 2% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about_me span{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-family: PMN;
+}
+
+.about_me h1{
+    color: #695aa6;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-family: Arion;
+}
+
+.about_me p{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-family: PMN;
+}
+
+.about_me button{
+    background-color: white;
+    border: 1px solid #695aa6;
+    padding: 6px 1px;
+    border-radius: 20px;
+    color: #695aa6;
+    font-family: PMN;
+    margin-top: 5px;
+    width: 100px;
+    margin-top: 40px;
+}
+
+/* / youri - about me section  */
+
+/*youri - service section */
+.service{
+    margin-bottom: 100px;
+}
+
+
+.section div{
+    display: flex;
+}
+
+.justify_title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.service h1{
+    font-family: Arion;
+    color: #695aa6;
+}
+
+.service span{
+    font-family: PMN;
+}
+
+.service h1{
+    font-family: Arion;
+    color: #695aa6;
+    
+}
+
+.service_container{
+    display: flex;
+    justify-content: space-evenly;   align-items: center;
+    margin-top: 50px;
+}
+/*youri - service section */
+
+#image{
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+}
+
+.service_card{
+    border: 1px solid black;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* / youri - service section */
+
+
+/* youri - portofolio section */
+.container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.portofolio span{
+    font-family: PMN;
+}
+
+.portofolio h1{
+    font-family: Arion;
+    color: #695aa6;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+}
+
+.card img{
+   height: 100%;
+   width: 100%;
+}
+/* / youri - portofolio section */
+
+
+
+/* youri - pricing section */
+.container_pricing{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.card_pricing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+
+}
+
+.card_pricing p, span{
+    line-height: 40px;
+    font-family: PMN;
+}
+
+
+
+.pricing h1:nth-child(2){
+    color: #695aa6;
+    font-family: Arion;
+}
+
+.pricing h1:nth-child(5), h1:nth-child(4), h1:nth-child(6) {
+    font-family: Arion;
+}
+
+.card_pricing button{
+    background-color: #695aa6;
+    border: none;
+    color: white;
+    padding: 8px 20px;}
+/* / youri - pricing section */
