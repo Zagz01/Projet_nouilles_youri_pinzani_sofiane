@@ -38,7 +38,7 @@ button {
    font-weight: bold;  
 }
 .textealigne2{
-font-weight:100; 
+font-weight:lighter; 
 font-family: PMN;
 }
 .placementbuton{
@@ -157,6 +157,9 @@ color: #695BA7;
     display: flex;
     list-style: none;
     gap:20px;
+    font-family: Arlon;
+    color:rgb(122, 120, 120);
+    font-size: smaller;
 }
 .dflexened{
     padding-top: 40px;
@@ -184,6 +187,7 @@ padding-top: 40px;
     border: #695BA7 solid 1px;
     padding: 10px 20px 10px 20px;
     background-color: white;
+    color: #695BA7;
 }
 .petitehr{
     width: 60%;
@@ -210,4 +214,8 @@ hr {
     /* Set the hr color */
     color: black; /* old IE */
     background-color:  rgb(191, 189, 189); /* Modern Browsers */
+}
+.policepetite{
+    font-size: smaller;
+    font-weight: 200;
 }
