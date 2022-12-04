@@ -77,9 +77,7 @@ button {
     margin: 0 10%;
 }
 
-.about_me img{
-    height: 70%;
-}
+
 
 .about_me div:first-of-type{
     display: flex;
@@ -162,7 +160,6 @@ button {
     justify-content: space-evenly;   align-items: center;
     margin-top: 50px;
 }
-/*youri - service section */
 
 #image{
     height: 50px;
@@ -213,6 +210,14 @@ button {
    height: 100%;
    width: 100%;
 }
+
+.sub_card_pricing{
+    height: 20%;
+}
+
+.sub_card_pricing1{
+    height: 100%;
+}
 /* / youri - portofolio section */
 
 
@@ -262,3 +267,26 @@ button {
     color: white;
     padding: 8px 20px;}
 /* / youri - pricing section */
+
+@media (min-width:1024px) and (max-width:1440px){
+    .top_section {
+        background-position: 0% 45%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 99vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arion;
+    }
+    .about_me{
+        display: flex;
+        height: 80vh;
+        margin: 10% 10%;
+    }
+    .service_card{
+        height: 3z0px;
+        width: 250px;
+    }
+
+}
