@@ -210,6 +210,9 @@ body {
     flex-direction: column;
     padding-top: 40px;
 }
+.arereponsive{
+
+}
 
 .placmeentbuton {
     padding-top: 30px;
@@ -453,10 +456,9 @@ hr {
         width: 80%;
         margin: auto;
     }
-
     .arereponsive {
-        margin-left: 400%;
-        margin-right: 400%;
+        width:%;
+
     }
 
 }
