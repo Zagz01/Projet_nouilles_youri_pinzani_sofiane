@@ -20,7 +20,7 @@
             <div>
                 <h1>HI!</h1>
                 <h1>I am Ze Barber</h1>
-                <span>FRONTEND WEB DESIGNER</span>
+                <p>FRONTEND WEB DESIGNER</p>
                 <button>Visit My Works</button>
             </div>
         </section>
@@ -37,18 +37,14 @@
             <div>
                 <span>Who Am I ?</span>
                 <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit exercitationem non, dolorem
-                    explicabo veritatis recusandae a et officia. Nemo, placeat velit? Nam quas porro id alias enim,
-                    nostrum vel fugit molestias dignissimos, recusandae omnis ex nesciunt incidunt voluptatem
-                    deleniti! Molestias animi tenetur accusamus iure distinctio quibusdam corporis quam veritatis
-                    libero.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit exercitationem non, dolorem
-                    explicabo veritatis recusandae a et officia. Nemo, placeat velit? Nam quas porro id alias enim,
-                    nostrum vel fugit molestias dignissimos, recusandae omnis ex nesciunt incidunt voluptatem
-                    deleniti! Molestias animi tenetur accusamus iure distinctio quibusdam corporis quam veritatis
-                    libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit quis earum maiores
-                    quo distinctio reiciendis laudantium asperiores, amet nulla veritatis maxime vel, placeat cum at
-                    natus? Consectetur, fugit excepturi?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit nemo esse iure dolor enim, harum quam
+                    similique molestias numquam, quisquam amet blanditiis, a consequatur sint? Fuga esse ipsa minima
+                    cumque excepturi pariatur itaque qui cupiditate, sed tenetur, officiis praesentium commodi culpa ab.
+                    Officia facilis nam blanditiis magnam voluptatum optio libero minima aliquam sit modi repellat
+                    doloribus nesciunt repellendus voluptas ipsum ea harum non soluta ut architecto, molestias
+                    voluptatem eligendi ducimus vitae. Sapiente amet, corrupti nobis reprehenderit perspiciatis libero
+                    ullam quas error pariatur doloremque quidem magni dicta iure aspernatur deleniti dolorem tempore
+                    voluptas repellat accusantium itaque velit? Amet neque facilis ut?</p>
                 <button>Download CV</button>
             </div>
         </section>
@@ -61,7 +57,7 @@
 
         <section class="service">
             <span class="justify_title">What I Do ?</span>
-            <h1 class="justify_title"> Service</h1>
+            <h1 class="justify_title service_title"> Service</h1>
             <div class="service_container">
                 <div class="service_card">
                     <img id="image" src="./public/images/pencil-case.svg" alt="">
@@ -96,12 +92,30 @@
             <div class="container">
                 <div class="card">
                     <img src="./public/images/folio-1.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <p class="text">Web Designing</p>
+                            <p class="text1">Category: Web Templates</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="card">
                     <img src="./public/images/folio-2.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <p class="text">Web Designing</p>
+                            <p class="text1">Category: Web Templates</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="card">
                     <img src="./public/images/folio-3.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <p class="text">Web Designing</p>
+                            <p class="text1">Category: Web Templates</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -111,48 +125,83 @@
         <!-- youri - pricing section  -->
 
         <section class="pricing">
-            <span class="justify_title">How Much I Charge ?</span>
-            <h1 class="justify_title">My Pricing</h1>
+            <span class="justify_title pricing_span">How Much I Charge ?</span>
+            <h1 class="justify_title pricing_title position">My Pricing</h1>
             <div class="container_pricing">
                 <div class="card_pricing">
                     <div class="sub_card_pricing">
-                        <img src="" alt="">
+                        <img class="logo_pricing" src="./public/images/scooter.svg" alt="">
                     </div>
                     <div class="sub_card_pricing">
-                        <h1>Free</h1>
+                        <h1 class="pricing_title">Free</h1>
                     </div>
                     <div class="sub_card_pricing">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, temporibus?</p>
+                        <p>accusamus reprehenderit</p>
+                        <p>provident dolorem</p>
+                        <p>quos neque</p>
+                        <p>fugiat quibusdam</p>
                     </div>
                     <div class="sub_card_pricing">
+                        <img class="x_mark" src="./public/images/iconmonstr-x-mark-lined-24.png" alt="">
+                    </div>
+                    <div>
                         <img src="./public/images/iconmonstr-x-mark-lined-24.png" alt="">
-                        <img src="./public/images/iconmonstr-x-mark-lined-24.png" alt="">
                     </div>
                     <div class="sub_card_pricing">
-                        <h1>$0.00/Month</h1>
+                        <h1 class="price">$0.00/Month</h1>
                     </div>
                     <div class="sub_card_pricing">
                         <button>Subscribe</button>
                     </div>
                 </div>
                 <div class="card_pricing">
-                    <img src="" alt="">
-                    <h1>Basic</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, temporibus?</p>
-                    <img src="./public/images/iconmonstr-x-mark-lined-24.png" alt="">
-                    <h1>$9.99/Month</h1>
-                    <button>Subscribe</button>
+                    <div class="sub_card_pricing">
+                        <img class="logo_pricing" src="./public/images/shipped.svg" alt="">
+                    </div>
+                    <div class="sub_card_pricing">
+                        <h1 class="pricing_title">Basic</h1>
+                    </div>
+                    <div class="sub_card_pricing">
+                        <p>accusamus reprehenderit</p>
+                        <p>provident dolorem</p>
+                        <p>quos neque</p>
+                        <p>fugiat quibusdam</p>
+                        <p>accusamus laboriosam</p>
+                    </div>
+                    <div class="sub_card_pricing">
+                        <img src="./public/images/iconmonstr-x-mark-lined-24.png" alt="">
+                    </div>
+                    <div class="sub_card_pricing">
+                        <h1 class="price">$9.99/Month</h1>
+                    </div>
+                    <div class="sub_card_pricing">
+                        <button>Subscribe</button>
+                    </div>
                 </div>
                 <div class="card_pricing">
-                    <img src="" alt="">
-                    <h1>Premium</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, temporibus?</p>
-                    <h1>$99.9/Month</h1>
-                    <button>Subscribe</button>
+                    <div class="sub_card_pricing">
+                        <img class="logo_pricing" src="./public/images/startup.svg" alt="">
+                    </div>
+                    <div class="sub_card_pricing">
+                        <h1 class="pricing_title">Premium</h1>
+                    </div>
+                    <div class="sub_card_pricing">
+                        <p>accusamus reprehenderit</p>
+                        <p>provident dolorem</p>
+                        <p>quos neque</p>
+                        <p>fugiat quibusdam</p>
+                        <p>accusamus laboriosam</p>
+                        <p>inventore omnis</p>
+                    </div>
+                    <div class="sub_card_pricing">
+                        <h1 class="price">$99.9/Month</h1>
+                    </div>
+                    <div class="sub_card_pricing">
+                        <button>Subscribe</button>
+                    </div>
                 </div>
             </div>
         </section>
-
         <!-- / youri - about me section  -->
 
     </header>

@@ -19,276 +19,23 @@ button {
     src: url(../fonts/PMNCaeciliaSansHeadRg.ttf);
 }
 
-/* youri - top section */
 
-.top_section {
-    background-image: linear-gradient(to bottom, rgba(99, 109, 161, 0), rgba(250, 250, 250, 1)), url(../images/header.jpg);
-    background-position: 0% 45%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arion;
+/* youri -  media queries 2560px */
 
-}
-
-.top_section h1:first-of-type {
-    color: #595a60;
-    font-size: 45px;
-}
-
-.top_section h1:nth-child(2) {
-    color: #42464f;
-    font-size: 60px;
-
-}
-
-.top_section span {
-    color: #3c3c3e;
-    font-family: PMN;
-    letter-spacing: 5px;
-    position: relative;
-    top: -17px;
-}
-
-.top_section button {
-    background-color: #695aa6;
-    border: none;
-    padding: 6px 15px;
-    border-radius: 20px;
-    color: white;
-    font-family: PMN;
-    margin-top: 5px;
-}
-
-.top_section div {
-    padding-right: 50px;
-    width: 400px;
-}
-
-/* youri - top section */
-
-/* youri - about me section */
-
-.about_me {
-    display: flex;
-    height: 60vh;
-    margin: 0 10%;
-    margin-bottom: 5%;
-
-}
-
-
-.about_me div:first-of-type {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about_me div:nth-child(2) {
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.about_me span {
-    margin-top: 1%;
-    margin-bottom: 2%;
-    font-family: PMN;
-}
-
-.about_me h1 {
-    color: #695aa6;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    font-family: Arion;
-}
-
-.about_me p {
-    margin-top: 1%;
-    margin-bottom: 2%;
-    font-family: PMN;
-}
-
-.about_me button {
-    background-color: white;
-    border: 1px solid #695aa6;
-    padding: 6px 1px;
-    border-radius: 20px;
-    color: #695aa6;
-    font-family: PMN;
-    margin-top: 5px;
-    width: 100px;
-    margin-top: 40px;
-}
-
-/* / youri - about me section  */
-
-/*youri - service section */
-.service {
-    margin-bottom: 2%;
-}
-
-
-.section div {
-    display: flex;
-}
-
-.justify_title {
-    display: flex;
-    justify-content: center;
-
-}
-
-.service h1 {
-    font-family: Arion;
-    color: #695aa6;
-}
-
-.service span {
-    font-family: PMN;
-}
-
-.service h1 {
-    font-family: Arion;
-    color: #695aa6;
-
-}
-
-.service_container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 2%;
-}
-
-#image {
-    height: 50px;
-    display: block;
-    margin: 10px auto;
-}
-
-.service_card {
-    border: 1px solid black;
-    padding: 20px;
-    height: 200px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-/* / youri - service section */
-
-
-/* youri - portofolio section */
-.portofolio {
-    height: 50vh;
-    margin: 0 4%;
-    margin-bottom: 2%;
-
-}
-
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2%;
-
-}
-
-.portofolio span {
-    font-family: PMN;
-}
-
-.portofolio h1 {
-    font-family: Arion;
-    color: #695aa6;
-
-}
-
-.card {
-    height: 300px;
-    width: 300px;
-}
-
-.card img {
-    height: 100%;
-    width: 100%;
-}
-
-/* / youri - portofolio section */
-
-
-
-/* youri - pricing section */
-.container_pricing {
-    height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-
-}
-
-.card_pricing {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 50px;
-    text-align: center;
-    border: 1px solid black;
-    width: 300px;
-    height: 400px;
-
-}
-
-.card_pricing p,
-span {
-    line-height: 40px;
-    font-family: PMN;
-}
-
-
-
-.pricing h1:nth-child(2) {
-    color: #695aa6;
-    font-family: Arion;
-}
-
-.pricing h1:nth-child(5),
-h1:nth-child(4),
-h1:nth-child(6) {
-    font-family: Arion;
-}
-
-.card_pricing button {
-    background-color: #695aa6;
-    border: none;
-    color: white;
-    padding: 8px 20px;
-}
-
-/* / youri - pricing section */
-
-
-@media (min-width:2648px) {
-    /* youri - top section - media queries */
+@media (min-width: 2560px) {
+    /* youri - top section */
 
     .top_section {
-        background-image: linear-gradient(to bottom, rgba(99, 109, 161, 0), rgba(250, 250, 250, 1)), url(../images/header.jpg);
-        background-position: 0% 35%;
+        background-image: linear-gradient(to bottom, rgba(99, 109, 161, 0.5), rgba(250, 250, 250, 1)), url(../images/header.jpg);
+        background-position: 0% 32%;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 70vh;
+        height: 50vh;
         display: flex;
         justify-content: center;
         align-items: center;
         font-family: Arion;
+
     }
 
     .top_section h1:first-of-type {
@@ -298,11 +45,11 @@ h1:nth-child(6) {
 
     .top_section h1:nth-child(2) {
         color: #42464f;
-        font-size: 80px;
+        font-size: 100px;
 
     }
 
-    .top_section span {
+    .top_section p {
         color: #3c3c3e;
         font-family: PMN;
         letter-spacing: 5px;
@@ -314,74 +61,2155 @@ h1:nth-child(6) {
     .top_section button {
         background-color: #695aa6;
         border: none;
-        padding: 12px 36px;
+        padding: 6px 15px;
         border-radius: 20px;
         color: white;
         font-family: PMN;
-        margin-top: 5%;
+        margin-top: 10px;
         font-size: 20px;
     }
 
     .top_section div {
-        padding-right: 50px;
-        margin-right: 400px;
-        width: 550px;
+        margin-right: 500px;
+        width: 500px;
     }
 
-    /* / youri - top section - media queries */
+    /* / youri - top section */
+
+    /* youri - about me section */
+
+    .about_me {
+        display: flex;
+        height: 60vh;
+        margin: 0 10%;
+        margin-bottom: 6%;
+    }
 
 
-    /* youri - about me section - media queries*/
+    .about_me div:first-of-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_me div:nth-child(2) {
+        margin-top: 0.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_me span {
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+        font-family: PMN;
+        font-size: 24px;
+        color: #6F6F6F;
+    }
+
+    .about_me h1 {
+        color: #695aa6;
+        margin-bottom: 2%;
+        font-family: Arion;
+        font-size: 60px;
+    }
 
     .about_me p {
         margin-top: 1%;
         margin-bottom: 2%;
-        margin-right: 7%;
+        font-family: PMN;
+        font-size: 24px;
+    }
+
+    .about_me button {
+        background-color: white;
+        border: 1px solid #695aa6;
+        padding: 6px 1px;
+        border-radius: 20px;
+        color: #695aa6;
+        font-family: PMN;
+        margin-top: 5px;
+        width: 150px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    /* / youri - about me section  */
+
+    /*youri - service section */
+    .service {
+        margin-bottom: 12%;
+    }
+
+
+    .section div {
+        display: flex;
+    }
+
+    .justify_title {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .service_title {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 60px;
+
+    }
+
+    .service span {
+        font-family: PMN;
+        font-size: 24px;
+        color: #6F6F6F;
+    }
+
+    .service_card h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 28px;
+
+    }
+
+    .service_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2% 10% 0 10%;
+        gap: 200px;
+    }
+
+    #image {
+        height: 100px;
+        display: block;
+        margin: 0 auto 40px auto;
+    }
+
+    .service_card {
+        border: 1px solid #DEE2E6;
+        padding: 20px;
+        height: 350px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service_card:hover::after {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ipsa illum sunt aliquam fuga! Aperiam voluptatibus quam porro sequi ipsum!";
+        text-align: center;
         font-family: PMN;
         font-size: 20px;
     }
 
-    .about_me span {
+    /* / youri - service section */
+
+
+    /* youri - portofolio section */
+    .portofolio {
+        height: 50vh;
+        /* margin: 0 -3%; */
+        margin-bottom: 12%;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2% 10% 0 10%;
+        gap: 350px;
+
+    }
+
+    .portofolio span {
+        font-family: PMN;
+        font-size: 24px;
+        color: #6F6F6F;
+    }
+
+    .portofolio h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 60px;
+    }
+
+    .card {
+        height: 450px;
+        width: 450px;
+        position: relative;
+    }
+
+    .card img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transform: scale(0);
+        transition: .3s ease;
+    }
+
+    .card:hover .overlay {
+        transform: scale(1);
+    }
+
+    .text {
+        color: #695aa6;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: Arion;
+
+    }
+
+    .text1 {
+        color: black;
         font-size: 20px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: PMN;
+    }
+
+    /* / youri - portofolio section */
+
+
+
+    /* youri - pricing section */
+    .container_pricing {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+        margin-bottom: 400px;
+
+
+    }
+
+    .card_pricing {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid black;
+        height: 675px;
+        width: 675px;
+    }
+
+    .card_pricing p,
+    span {
+        line-height: 40px;
+        font-family: PMN;
+    }
+
+
+
+    .pricing h1:nth-child(2) {
+        color: #695aa6;
+        font-family: Arion;
+    }
+
+    .pricing h1:nth-child(5),
+    h1:nth-child(4),
+    h1:nth-child(6) {
+        font-family: Arion;
+    }
+
+    .card_pricing button {
+        background-color: #695aa6;
+        border: none;
+        color: white;
+        margin-top: 50px;
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+
+    .logo_pricing {
+        width: 150px;
+    }
+
+    .sub_card_pricing {
+        height: 100%;
+    }
+
+    .sub_card_pricing h1 {
+        font-size: 60px;
+    }
+
+    .sub_card_pricing p {
+        font-size: 24px;
+    }
+
+    .pricing_span {
+        font-size: 24px;
+        color: #6F6F6F;
+    }
+
+    .pricing_title {
+        font-size: 60px;
+        font-family: Arion;
+        color: #695aa6;
+    }
+
+    .price {
+        color: #4D5053;
+        font-family: PMN;
+    }
+
+    /* / youri - pricing section */
+
+}
+
+/* youri - media queries 1440px - 2559px*/
+
+
+@media (min-width:1440px) and (max-width: 2559px) {
+
+    /* youri - top section */
+
+    .top_section {
+        background-image: linear-gradient(to bottom, rgba(99, 109, 161, 0.5), rgba(250, 250, 250, 1)), url(../images/header.jpg);
+        background-position: 0% 35%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arion;
+
+    }
+
+    .top_section h1:first-of-type {
+        color: #595a60;
+        font-size: 50px;
+    }
+
+    .top_section h1:nth-child(2) {
+        color: #42464f;
+        font-size: 80px;
+
+    }
+
+    .top_section p {
+        color: #3c3c3e;
+        font-family: PMN;
+        letter-spacing: 5px;
+        position: relative;
+        top: -17px;
+        font-size: 16px;
+    }
+
+    .top_section button {
+        background-color: #695aa6;
+        border: none;
+        padding: 6px 15px;
+        border-radius: 20px;
+        color: white;
+        font-family: PMN;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .top_section div {
+        margin-right: 300px;
+        width: 500px;
+    }
+
+    /* / youri - top section */
+
+    /* youri - about me section */
+
+    .about_me {
+        display: flex;
+        height: 60vh;
+        margin: 0 10%;
+        margin-bottom: 6%;
+    }
+
+
+    .about_me div:first-of-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_me div:nth-child(2) {
         margin-top: 0.5%;
-        margin-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_me span {
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+        font-family: PMN;
+        font-size: 24px;
+        color: #6F6F6F;
     }
 
     .about_me h1 {
+        color: #695aa6;
+        margin-bottom: 2%;
+        font-family: Arion;
         font-size: 60px;
-        margin-top: 0.5%;
-        margin-bottom: 1%;
+    }
+
+    .about_me p {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-family: PMN;
+        font-size: 18px;
     }
 
     .about_me button {
-        padding: 10px 0;
+        background-color: white;
+        border: 1px solid #695aa6;
+        padding: 6px 1px;
+        border-radius: 20px;
+        color: #695aa6;
+        font-family: PMN;
+        margin-top: 5px;
         width: 150px;
-        font-size: 20px;
-        font-weight:600;
-        border-radius: 25px;
-        margin-top: 1%;
-
+        margin-top: 40px;
+        font-size: 16px;
     }
 
-    /* / youri - about me section - media queries*/
+    /* / youri - about me section  */
 
-    /* youri - service section - media queries */
+    /*youri - service section */
     .service {
-        margin-bottom: 100px;
-        height: 40vh;
+        margin-bottom: 12%;
+    }
+
+
+    .section div {
+        display: flex;
+    }
+
+    .justify_title {
+        display: flex;
+        justify-content: center;
 
     }
 
-    /* / youri - service section - media queries  */
+    .service_title {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 60px;
 
-    /* youri - portofolio section - media queries*/
-    .container {
-        height: 300px;
-        width: 100%;
+    }
+
+    .service span {
+        font-family: PMN;
+        font-size: 24px;
+        color: #6F6F6F;
+    }
+
+    .service_card h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 24px;
+
+    }
+
+    .service_container {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 100px;
+        align-items: center;
+        margin: 2% 10% 0 10%;
+        gap: 50px;
     }
 
-    /* youri - portofolio section - media queries*/
+    #image {
+        height: 100px;
+        display: block;
+        margin: 0 auto 40px auto;
+    }
+
+    .service_card {
+        border: 1px solid #DEE2E6;
+        padding: 20px;
+        height: 300px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service_card:hover::after {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ipsa illum sunt aliquam fuga! Aperiam voluptatibus quam porro sequi ipsum!";
+        text-align: center;
+        font-family: PMN;
+        font-size: 15px;
+    }
+
+    /* / youri - service section */
+
+
+    /* youri - portofolio section */
+    .portofolio {
+        height: 50vh;
+        /* margin: 0 -3%; */
+        margin-bottom: 12%;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2% 10% 0 10%;
+        gap: 50px;
+
+    }
+
+    .portofolio span {
+        font-family: PMN;
+        font-size: 24px;
+        color: #6F6F6F;
+    }
+
+    .portofolio h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 60px;
+    }
+
+    .card {
+        height: 450px;
+        width: 450px;
+        position: relative;
+    }
+
+    .card img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transform: scale(0);
+        transition: .3s ease;
+    }
+
+    .card:hover .overlay {
+        transform: scale(1);
+    }
+
+    .text {
+        color: #695aa6;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: Arion;
+
+    }
+
+    .text1 {
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: PMN;
+    }
+
+    /* / youri - portofolio section */
+
+
+
+    /* youri - pricing section */
+    .container_pricing {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+        margin-bottom: 400px;
+
+
+    }
+
+    .card_pricing {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid black;
+        height: 675px;
+        width: 375px;
+    }
+
+    .card_pricing p,
+    span {
+        line-height: 40px;
+        font-family: PMN;
+    }
+
+
+
+    .pricing h1:nth-child(2) {
+        color: #695aa6;
+        font-family: Arion;
+    }
+
+    .pricing h1:nth-child(5),
+    h1:nth-child(4),
+    h1:nth-child(6) {
+        font-family: Arion;
+    }
+
+    .card_pricing button {
+        background-color: #695aa6;
+        border: none;
+        color: white;
+        margin-top: 50px;
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+
+    .logo_pricing {
+        width: 150px;
+    }
+
+    .sub_card_pricing {
+        height: 100%;
+    }
+
+    .sub_card_pricing h1 {
+        font-size: 40px;
+    }
+
+    .sub_card_pricing p {
+        font-size: 24px;
+    }
+
+    .pricing_span {
+        font-size: 24px;
+        color: #6F6F6F;
+    }
+
+    .pricing_title {
+        font-size: 60px;
+        font-family: Arion;
+        color: #695aa6;
+    }
+
+    .price {
+        color: #4D5053;
+        font-family: PMN;
+    }
+
+    /* / youri - pricing section */
+}
+
+/* youri - top section - media queries 1024 - 1439px */
+
+@media (min-width:1024px) and (max-width: 1439px) {
+        /* youri - top section */
+
+        .top_section {
+            background-image: linear-gradient(to bottom, rgba(99, 109, 161, 0.5), rgba(250, 250, 250, 1)), url(../images/header.jpg);
+            background-position: 0% 35%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arion;
+    
+        }
+    
+        .top_section h1:first-of-type {
+            color: #595a60;
+            font-size: 50px;
+        }
+    
+        .top_section h1:nth-child(2) {
+            color: #42464f;
+            font-size: 60px;
+    
+        }
+    
+        .top_section p {
+            color: #3c3c3e;
+            font-family: PMN;
+            letter-spacing: 5px;
+            position: relative;
+            top: -17px;
+            font-size: 16px;
+        }
+    
+        .top_section button {
+            background-color: #695aa6;
+            border: none;
+            padding: 6px 15px;
+            border-radius: 20px;
+            color: white;
+            font-family: PMN;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    
+        .top_section div {
+            margin-right: 100px;
+            width: 500px;
+        }
+    
+        /* / youri - top section */
+    
+        /* youri - about me section */
+    
+        .about_me {
+            display: flex;
+            height: 60vh;
+            margin: 0 10%;
+            margin-bottom: 6%;
+        }
+    
+    
+        .about_me div:first-of-type {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .about_me div:nth-child(2) {
+            margin-top: 0.5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .about_me span {
+            margin-top: 1%;
+            margin-bottom: 0.5%;
+            font-family: PMN;
+            font-size: 16px;
+            color: #6F6F6F;
+        }
+    
+        .about_me h1 {
+            color: #695aa6;
+            margin-bottom: 2%;
+            font-family: Arion;
+            font-size: 50px;
+        }
+    
+        .about_me p {
+            margin-top: 1%;
+            margin-bottom: 2%;
+            font-family: PMN;
+            font-size: 16px;
+        }
+    
+        .about_me button {
+            background-color: white;
+            border: 1px solid #695aa6;
+            padding: 6px 1px;
+            border-radius: 20px;
+            color: #695aa6;
+            font-family: PMN;
+            margin-top: 5px;
+            width: 150px;
+            margin-top: 40px;
+            font-size: 16px;
+
+        }
+        .about_me img{
+            height: 30vh;
+        }
+        /* / youri - about me section  */
+    
+        /*youri - service section */
+        .service {
+            margin-bottom: 12%;
+        }
+    
+    
+        .section div {
+            display: flex;
+        }
+    
+        .justify_title {
+            display: flex;
+            justify-content: center;
+    
+        }
+    
+        .service_title {
+            font-family: Arion;
+            color: #695aa6;
+            font-size: 50px;
+    
+        }
+    
+        .service span {
+            font-family: PMN;
+            font-size: 16px;
+            color: #6F6F6F;
+        }
+    
+        .service_card h1 {
+            font-family: Arion;
+            color: #695aa6;
+            font-size: 24px;
+    
+        }
+    
+        .service_container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 2% 10% 0 10%;
+            gap: 50px;
+        }
+    
+        #image {
+            height: 70px;
+            display: block;
+            margin: 0 auto 40px auto;
+        }
+    
+        .service_card {
+            border: 1px solid #DEE2E6;
+            padding: 20px;
+            height: 400px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .service_card:hover::after {
+            content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ipsa illum sunt aliquam fuga! Aperiam voluptatibus quam porro sequi ipsum!";
+            text-align: center;
+            font-family: PMN;
+            font-size: 15px;
+        }
+    
+        /* / youri - service section */
+    
+    
+        /* youri - portofolio section */
+        .portofolio {
+            height: 50vh;
+            /* margin: 0 -3%; */
+            margin-bottom: 12%;
+    
+        }
+    
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 2% 10% 0 10%;
+            gap: 50px;
+    
+        }
+    
+        .portofolio span {
+            font-family: PMN;
+            font-size: 16px;
+            color: #6F6F6F;
+        }
+    
+        .portofolio h1 {
+            font-family: Arion;
+            color: #695aa6;
+            font-size: 50px;
+        }
+    
+        .card {
+            height: 350px;
+            width: 350px;
+            position: relative;
+        }
+    
+        .card img {
+            height: 100%;
+            width: 100%;
+        }
+    
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            transform: scale(0);
+            transition: .3s ease;
+        }
+    
+        .card:hover .overlay {
+            transform: scale(1);
+        }
+    
+        .text {
+            color: #695aa6;
+            font-size: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-family: Arion;
+    
+        }
+    
+        .text1 {
+            color: black;
+            font-size: 20px;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-family: PMN;
+        }
+    
+        /* / youri - portofolio section */
+    
+    
+    
+        /* youri - pricing section */
+        .container_pricing {
+            height: 400px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 50px 0;
+            margin-bottom: 400px;
+    
+    
+        }
+    
+        .card_pricing {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 50px;
+            text-align: center;
+            border: 1px solid black;
+            height: 580px;
+            width: 300px;
+        }
+    
+        .card_pricing p,
+        span {
+            line-height: 20px;
+            font-family: PMN;
+        }
+    
+    
+    
+        .pricing h1:nth-child(2) {
+            color: #695aa6;
+            font-family: Arion;
+        }
+    
+        .pricing h1:nth-child(5),
+        h1:nth-child(4),
+        h1:nth-child(6) {
+            font-family: Arion;
+        }
+        
+        .card_pricing button {
+            background-color: #695aa6;
+            border: none;
+            color: white;
+            margin-top: 50px;
+            padding: 10px 30px;
+            font-size: 16px;
+        }
+    
+        .logo_pricing {
+            width: 100px;
+        }
+    
+        .sub_card_pricing {
+            height: 100%;
+        }
+    
+        .sub_card_pricing h1 {
+            font-size: 25px;
+        }
+    
+        .sub_card_pricing p {
+            font-size: 16px;
+        }
+    
+        .pricing_span {
+            font-size: 24px;
+            color: #6F6F6F;
+        }
+    
+        .pricing_title {
+            font-size: 30px;
+            font-family: Arion;
+            color: #695aa6;
+        }
+    
+        .price {
+            color: #4D5053;
+            font-family: PMN;
+        }
+    
+        /* / youri - pricing section */
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    /* youri - top section */
+
+    .top_section {
+        background-image: linear-gradient(to bottom, rgba(99, 109, 161, 0.5), rgba(250, 250, 250, 1)), url(../images/header.jpg);
+        background-position: 0% 35%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arion;
+
+    }
+
+    .top_section h1:first-of-type {
+        color: #595a60;
+        font-size: 50px;
+    }
+
+    .top_section h1:nth-child(2) {
+        color: #42464f;
+        font-size: 60px;
+
+    }
+
+    .top_section p {
+        color: #3c3c3e;
+        font-family: PMN;
+        letter-spacing: 5px;
+        position: relative;
+        top: -17px;
+        font-size: 16px;
+    }
+
+    .top_section button {
+        background-color: #695aa6;
+        border: none;
+        padding: 6px 15px;
+        border-radius: 20px;
+        color: white;
+        font-family: PMN;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .top_section div {
+        margin-right: -200px;
+        width: 500px;
+    }
+
+    /* / youri - top section */
+
+    /* youri - about me section */
+
+    .about_me {
+        display: flex;
+        height: 60vh;
+        margin: 0 10%;
+        margin-bottom: 12%;
+        flex-direction: column;
+    }
+
+
+    .about_me div:first-of-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_me div:nth-child(2) {
+        margin-top: 0.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_me span {
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+    }
+
+    .about_me h1 {
+        color: #695aa6;
+        margin-bottom: 2%;
+        font-family: Arion;
+        font-size: 50px;
+    }
+
+    .about_me p {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-family: PMN;
+        font-size: 16px;
+    }
+
+    .about_me button {
+        background-color: white;
+        border: 1px solid #695aa6;
+        padding: 6px 1px;
+        border-radius: 20px;
+        color: #695aa6;
+        font-family: PMN;
+        width: 150px;
+        margin-top: 40px;
+        font-size: 16px;
+        display: block;
+        margin: 20px auto 0 auto;
+
+    }
+    .about_me img{
+        height: 30vh;
+    }
+    /* / youri - about me section  */
+
+    /*youri - service section */
+    .service {
+        margin-bottom: 12%;
+    }
+
+
+    .section div {
+        display: flex;
+    }
+
+    .justify_title {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .service_title {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 50px;
+
+    }
+
+    .service span {
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+    }
+
+    .service_card h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 24px;
+
+    }
+
+    .service_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2% 10% 0 10%;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    #image {
+        height: 70px;
+        display: block;
+        margin: 0 auto 40px auto;
+    }
+
+    .service_card {
+        border: 1px solid #DEE2E6;
+        padding: 20px;
+        height: 400px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service_card:hover::after {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ipsa illum sunt aliquam fuga! Aperiam voluptatibus quam porro sequi ipsum!";
+        text-align: center;
+        font-family: PMN;
+        font-size: 15px;
+    }
+
+    /* / youri - service section */
+
+
+    /* youri - portofolio section */
+    .portofolio {
+        height: 50vh;
+        /* margin: 0 -3%; */
+        margin-bottom: 12%;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2% 10% 0 10%;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .portofolio span {
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+    }
+
+    .portofolio h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 50px;
+    }
+
+    .card {
+        height: 350px;
+        width: 350px;
+        position: relative;
+    }
+
+    .card img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transform: scale(0);
+        transition: .3s ease;
+    }
+
+    .card:hover .overlay {
+        transform: scale(1);
+    }
+
+    .text {
+        color: #695aa6;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: Arion;
+
+    }
+
+    .text1 {
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: PMN;
+    }
+
+    /* / youri - portofolio section */
+
+
+
+    /* youri - pricing section */
+
+    .pricing{
+        margin-top: 1200px;
+    }
+
+    .container_pricing {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+        margin-bottom: 400px;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .card_pricing {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid black;
+        height: 580px;
+        width: 300px;
+    }
+
+    .card_pricing p,
+    span {
+        line-height: 20px;
+        font-family: PMN;
+    }
+
+
+
+    .pricing h1:nth-child(2) {
+        color: #695aa6;
+        font-family: Arion;
+    }
+
+    .pricing h1:nth-child(5),
+    h1:nth-child(4),
+    h1:nth-child(6) {
+        font-family: Arion;
+    }
+    
+    .card_pricing button {
+        background-color: #695aa6;
+        border: none;
+        color: white;
+        margin-top: 50px;
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+    .logo_pricing {
+        width: 100px;
+    }
+
+    .sub_card_pricing {
+        height: 100%;
+    }
+
+    .sub_card_pricing h1 {
+        font-size: 25px;
+    }
+
+    .sub_card_pricing p {
+        font-size: 16px;
+    }
+
+    .pricing_span {
+        font-size: 24px;
+        color: #6F6F6F;
+        position: relative;
+        top: -450px;
+    }
+
+    .position{
+        position: relative;
+        top: -400px;
+    }
+
+    .pricing_title {
+        font-size: 30px;
+        font-family: Arion;
+        color: #695aa6;
+    }
+
+    .price {
+        color: #4D5053;
+        font-family: PMN;
+    }
+
+    /* / youri - pricing section */
+}
+
+@media (min-width:425px) and (max-width: 767px) {
+    /* youri - top section */
+
+    .top_section {
+        background-image:  url(../images/header.jpg);
+        background-position: 0% 0%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arion;
+
+    }
+
+    .top_section h1:first-of-type {
+        color: #595a60;
+        font-size: 30px;
+    }
+
+    .top_section h1:nth-child(2) {
+        color: #42464f;
+        font-size: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    .top_section p {
+        color: #3c3c3e;
+        font-family: PMN;
+        letter-spacing: 5px;
+        position: relative;
+        top: -17px;
+        font-size: 16px;
+    }
+
+    .top_section button {
+        background-color: #695aa6;
+        border: none;
+        padding: 6px 15px;
+        border-radius: 20px;
+        color: white;
+        font-family: PMN;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .top_section div {
+
+        text-align: center;
+    }
+
+    /* / youri - top section */
+
+    /* youri - about me section */
+
+    .about_me {
+        display: flex;
+        height: 60vh;
+        margin: 0 10%;
+        margin-bottom: 50%;
+        flex-direction: column;
+    }
+
+
+    .about_me div:first-of-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_me div:nth-child(2) {
+        margin-top: 0.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_me span {
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+        text-align: center;
+    }
+
+    .about_me h1 {
+        color: #695aa6;
+        margin-bottom: 2%;
+        font-family: Arion;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about_me p {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-family: PMN;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about_me button {
+        background-color: white;
+        border: 1px solid #695aa6;
+        padding: 6px 1px;
+        border-radius: 20px;
+        color: #695aa6;
+        font-family: PMN;
+        width: 150px;
+        margin-top: 40px;
+        font-size: 16px;
+        display: block;
+        margin: 20px auto 0 auto;
+
+    }
+    .about_me img{
+        height: 30vh;
+        margin-bottom: 20px;
+    }
+    /* / youri - about me section  */
+
+    /*youri - service section */
+    .service {
+        margin-bottom: 12%;
+    }
+
+
+    .section div {
+        display: flex;
+    }
+
+    .justify_title {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .service_title {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 30px;
+
+    }
+
+    .service span {
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+    }
+
+    .service_card h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 24px;
+
+    }
+
+    .service_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2% 10% 0 10%;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    #image {
+        height: 70px;
+        display: block;
+        margin: 0 auto 40px auto;
+    }
+
+    .service_card {
+        border: 1px solid #DEE2E6;
+        padding: 20px;
+        height: 400px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service_card:hover::after {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ipsa illum sunt aliquam fuga! Aperiam voluptatibus quam porro sequi ipsum!";
+        text-align: center;
+        font-family: PMN;
+        font-size: 15px;
+    }
+
+    /* / youri - service section */
+
+
+    /* youri - portofolio section */
+    .portofolio {
+        height: 50vh;
+        /* margin: 0 -3%; */
+        margin-bottom: 12%;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2% 10% 0 10%;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .portofolio span {
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+    }
+
+    .portofolio h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 30px;
+    }
+
+    .card {
+        height: 350px;
+        width: 350px;
+        position: relative;
+    }
+
+    .card img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transform: scale(0);
+        transition: .3s ease;
+    }
+
+    .card:hover .overlay {
+        transform: scale(1);
+    }
+
+    .text {
+        color: #695aa6;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: Arion;
+
+    }
+
+    .text1 {
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: PMN;
+    }
+
+    /* / youri - portofolio section */
+
+
+
+    /* youri - pricing section */
+
+    .pricing{
+        margin-top: 1200px;
+    }
+
+    .container_pricing {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+        margin-bottom: 400px;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .card_pricing {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid black;
+        height: 580px;
+        width: 300px;
+    }
+
+    .card_pricing p,
+    span {
+        line-height: 20px;
+        font-family: PMN;
+    }
+
+
+
+    .pricing h1:nth-child(2) {
+        color: #695aa6;
+        font-family: Arion;
+    }
+
+    .pricing h1:nth-child(5),
+    h1:nth-child(4),
+    h1:nth-child(6) {
+        font-family: Arion;
+    }
+    
+    .card_pricing button {
+        background-color: #695aa6;
+        border: none;
+        color: white;
+        margin-top: 50px;
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+    .logo_pricing {
+        width: 100px;
+    }
+
+    .sub_card_pricing {
+        height: 100%;
+    }
+
+    .sub_card_pricing h1 {
+        font-size: 25px;
+    }
+
+    .sub_card_pricing p {
+        font-size: 16px;
+    }
+
+    .pricing_span {
+        font-size: 24px;
+        color: #6F6F6F;
+        position: relative;
+        top: -450px;
+    }
+
+    .position{
+        position: relative;
+        top: -400px;
+    }
+
+    .pricing_title {
+        font-size: 30px;
+        font-family: Arion;
+        color: #695aa6;
+    }
+
+    .price {
+        color: #4D5053;
+        font-family: PMN;
+    }
+
+    /* / youri - pricing section */
+}
+
+@media (min-width:375px) and (max-width: 424px) {
+    /* youri - top section */
+
+    .top_section {
+        background-image:  url(../images/header.jpg);
+        background-position: 0% 0%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arion;
+
+    }
+
+    .top_section h1:first-of-type {
+        color: #595a60;
+        font-size: 30px;
+    }
+
+    .top_section h1:nth-child(2) {
+        color: #42464f;
+        font-size: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    .top_section p {
+        color: #3c3c3e;
+        font-family: PMN;
+        letter-spacing: 5px;
+        position: relative;
+        top: -17px;
+        font-size: 16px;
+    }
+
+    .top_section button {
+        background-color: #695aa6;
+        border: none;
+        padding: 6px 15px;
+        border-radius: 20px;
+        color: white;
+        font-family: PMN;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .top_section div {
+
+        text-align: center;
+    }
+
+    /* / youri - top section */
+
+    /* youri - about me section */
+
+    .about_me {
+        display: flex;
+        height: 60vh;
+        margin: 0 10%;
+        margin-bottom: 60%;
+        flex-direction: column;
+    }
+
+
+    .about_me div:first-of-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_me div:nth-child(2) {
+        margin-top: 0.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_me span {
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+        text-align: center;
+    }
+
+    .about_me h1 {
+        color: #695aa6;
+        margin-bottom: 2%;
+        font-family: Arion;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about_me p {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-family: PMN;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about_me button {
+        background-color: white;
+        border: 1px solid #695aa6;
+        padding: 6px 1px;
+        border-radius: 20px;
+        color: #695aa6;
+        font-family: PMN;
+        width: 150px;
+        margin-top: 40px;
+        font-size: 16px;
+        display: block;
+        margin: 20px auto 0 auto;
+
+    }
+    .about_me img{
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+    /* / youri - about me section  */
+
+    /*youri - service section */
+    .service {
+        margin-bottom: 12%;
+    }
+
+
+    .section div {
+        display: flex;
+    }
+
+    .justify_title {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .service_title {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 30px;
+
+    }
+
+    .service span {
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+    }
+
+    .service_card h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 24px;
+
+    }
+
+    .service_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2% 10% 0 10%;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    #image {
+        height: 70px;
+        display: block;
+        margin: 0 auto 40px auto;
+    }
+
+    .service_card {
+        border: 1px solid #DEE2E6;
+        padding: 20px;
+        height: 400px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service_card:hover::after {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ipsa illum sunt aliquam fuga! Aperiam voluptatibus quam porro sequi ipsum!";
+        text-align: center;
+        font-family: PMN;
+        font-size: 15px;
+    }
+
+    /* / youri - service section */
+
+
+    /* youri - portofolio section */
+    .portofolio {
+        height: 50vh;
+        /* margin: 0 -3%; */
+        margin-bottom: 12%;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2% 10% 0 10%;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .portofolio span {
+        font-family: PMN;
+        font-size: 16px;
+        color: #6F6F6F;
+    }
+
+    .portofolio h1 {
+        font-family: Arion;
+        color: #695aa6;
+        font-size: 30px;
+    }
+
+    .card {
+        height: 350px;
+        width: 350px;
+        position: relative;
+    }
+
+    .card img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transform: scale(0);
+        transition: .3s ease;
+    }
+
+    .card:hover .overlay {
+        transform: scale(1);
+    }
+
+    .text {
+        color: #695aa6;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: Arion;
+
+    }
+
+    .text1 {
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: PMN;
+    }
+
+    /* / youri - portofolio section */
+
+
+
+    /* youri - pricing section */
+
+    .pricing{
+        margin-top: 1200px;
+    }
+
+    .container_pricing {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+        margin-bottom: 400px;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .card_pricing {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid black;
+        height: 580px;
+        width: 300px;
+    }
+
+    .card_pricing p,
+    span {
+        line-height: 20px;
+        font-family: PMN;
+    }
+
+
+
+    .pricing h1:nth-child(2) {
+        color: #695aa6;
+        font-family: Arion;
+    }
+
+    .pricing h1:nth-child(5),
+    h1:nth-child(4),
+    h1:nth-child(6) {
+        font-family: Arion;
+    }
+    
+    .card_pricing button {
+        background-color: #695aa6;
+        border: none;
+        color: white;
+        margin-top: 50px;
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+    .logo_pricing {
+        width: 100px;
+    }
+
+    .sub_card_pricing {
+        height: 100%;
+    }
+
+    .sub_card_pricing h1 {
+        font-size: 25px;
+    }
+
+    .sub_card_pricing p {
+        font-size: 16px;
+    }
+
+    .pricing_span {
+        font-size: 24px;
+        color: #6F6F6F;
+        position: relative;
+        top: -450px;
+    }
+
+    .position{
+        position: relative;
+        top: -400px;
+    }
+
+    .pricing_title {
+        font-size: 30px;
+        font-family: Arion;
+        color: #695aa6;
+    }
+
+    .price {
+        color: #4D5053;
+        font-family: PMN;
+    }
+
+    /* / youri - pricing section */
 }
