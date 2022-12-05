@@ -1001,7 +1001,7 @@ button {
             color: black;
             font-size: 20px;
             position: absolute;
-            top: 60%;
+            top: 70%;
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
@@ -1778,6 +1778,7 @@ button {
         border: 1px solid black;
         height: 580px;
         width: 350px;
+        margin-bottom: 20px;
     }
 
     .card_pricing p,
@@ -2156,6 +2157,7 @@ button {
         border: 1px solid black;
         height: 580px;
         width: 300px;
+        margin-bottom: 20px;
     }
 
     .card_pricing p,
