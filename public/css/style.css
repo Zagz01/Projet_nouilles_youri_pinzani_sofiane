@@ -262,3 +262,455 @@ button {
     color: white;
     padding: 8px 20px;}
 /* / youri - pricing section */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: PMN;
+    src: url(../font/PMNCaeciliaSansHeadRg.ttf)
+}
+
+@font-face {
+    font-family: Arlon;
+    src: url(../font/Arlon-UltraBold.ttf)
+}
+
+.moova {
+    background-color: #695BA7;
+    width: 100%;
+    height: 150px;
+    font-family: Arlon;
+}
+
+.textepartieb {
+    color: white;
+}
+
+.textepartieb {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    right: -400px;
+    top: 50px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.textealigne2 {
+    font-weight: lighter;
+    font-family: PMN;
+}
+
+.placementbuton {
+    position: relative;
+    right: -1000px;
+    top: -10px;
+}
+
+.widthbuton {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 3%;
+    border: none;
+    font-family: Arlon;
+    font-size: larger;
+}
+
+.centrerlasection3 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.oklmzer {
+    font-weight: lighter;
+    font-family: PMN;
+    font-size: smaller;
+}
+
+.changementpolice {
+    font-family: Arlon;
+    color: #695BA7;
+}
+
+.arrondieimg {
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: -40px;
+    top: 0px;
+    margin: auto;
+}
+
+.border {
+    border: solid 1px rgb(191, 189, 189);
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.borderr {
+    border: solid 1px rgb(191, 189, 189);
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.arrondieimgb {
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: -40px;
+    top: 0px;
+}
+
+.coloration {
+    color: #695BA7;
+    font-family: Arlon;
+}
+
+.titresectio3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.oklmzer {
+    font-weight: lighter;
+    font-family: PMN;
+}
+
+.titresection3 {
+    font-weight: lighter;
+    font-family: Arlon;
+    color: #695BA7;
+}
+
+.d-flexe {
+    display: flex;
+    justify-content: center;
+    border: solid 1px rgb(191, 189, 189);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.centragde {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textearangement {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.centragetextr {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.centragere {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: Arlon;
+    color: rgb(122, 120, 120);
+    font-size: smaller;
+}
+
+.dflexened {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.deplacement {
+    margin-left: 300px;
+    color: #695BA7;
+    font-family: Arlon;
+}
+
+.centragearea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+
+.placmeentbuton {
+    padding-top: 30px;
+
+}
+
+.buttonmodif {
+    border-radius: 10px;
+    border: #695BA7 solid 1px;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    color: #695BA7;
+}
+
+.petitehr {
+    width: 60%;
+    margin: auto;
+}
+
+.placment {
+    padding-top: 10px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gapentre {
+    display: flex;
+    gap: 3px;
+}
+
+.paddinggaucheborde {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+hr {
+    border: none;
+    height: 0.5px;
+    color: black;
+    background-color: rgb(191, 189, 189);
+}
+
+.policepetite {
+    font-size: smaller;
+    font-weight: 200;
+}
+
+.chat::after {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 9px;
+    left: 5px;
+    background-image: url(../images/iconmonstr-speech-bubble-thin-12.png
+);
+    background-repeat: no-repeat;
+}
+
+.coeur::before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 9px;
+    left: 5px;
+    background-image: url(../images/iconmonstr-heart-lined-12.png);
+    background-repeat: no-repeat;
+}
+
+.readmore {
+    color: #695BA7;
+    font-size: smaller;
+    font-family: PMN;
+}
+
+/*Premiere  Responsive 600 a 1024px*/
+@media (min-width:600px) and (max-width: 1024px) {
+
+    /*Premiere Section Responsive*/
+    .moova {
+        width: 100%;
+    }
+
+    .textepartieb {
+        position: relative;
+        right: -100px;
+
+    }
+
+    .placementbuton {
+        position: relative;
+        right: -750px;
+    }
+
+    /* Section 2 Responsive*/
+    .arrondieimg,
+    .arrondieimgb {
+        width: 50px;
+    }
+
+    .centragde {
+        padding-top: 50px;
+    }
+
+    .d-flex {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+    }
+
+    .border {
+        width: 100%;
+    }
+
+    .borderr {
+        width: 100%;
+    }
+
+    .centrerlasection3 {
+        padding-bottom: 30px;
+    }
+
+    .responsivea {
+        padding-top: 300px;
+    }
+    /* Section 3 Responsive*/
+    .centragde {
+        padding-top: 50px;
+    }
+
+    .d-flexe {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+    }
+
+    .paddinggaucheborde {
+        width: 100%;
+    }
+
+    .imgreponsive {
+        width: 100%;
+    }
+
+    /* Section 4 Responsive*/
+    .deplacement {
+        position: relative;
+        right: 100px;
+
+    }
+}
+
+@media (min-width:320px) and (max-width: 600px) {
+
+    /* Section 1 Responsive*/
+    .moova {
+        width: 110%;
+    }
+
+    .placageA {
+        position: relative;
+        right: 350px;
+    }
+
+    .placementbuton {
+        position: relative;
+        right: -700px;
+    }
+
+    /* Section 2 Responsive*/
+
+    .arrondieimg,
+    .arrondieimgb {
+        width: 40px;
+    }
+
+    .d-flex {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+    }
+
+    .border {
+        width: 100%;
+    }
+
+    .borderr {
+        width: 100%;
+    }
+
+    .centrerlasection3 {
+        padding-bottom: 30px;
+    }
+
+    /* Section 3 Responsive*/
+    .centragde {
+        padding-top: 50px;
+    }
+
+    .d-flexe {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+    }
+
+    .paddinggaucheborde {
+        width: 100%;
+    }
+
+    .imgreponsive {
+        width: 100%;
+    }
+
+    /* Section 4 Responsive*/
+    .dflexened {
+        position: relative;
+        left: -250px;
+    }
+
+    .deplacement {
+        position: relative;
+        left: -40px;
+        top: -10px;
+    }
+
+    /* Footer Responsive*/
+    .centragearea {
+        width: 80%;
+        margin: auto;
+    }
+
+}
